@@ -1,0 +1,33 @@
+{
+  "name": "blks",
+  "version": "0.0.1",
+  "description": "Blockchain Transaction Streamer",
+  "main": "lib/index.js",
+  "author": "Dev Null Productions <devnullproductions@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devnullprod/blks"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "keywords": [
+    "blockchain",
+    "transaction",
+    "streaming"
+  ],
+  "optionalDependencies": {
+    "ripple-lib": "^1.9.2",
+    "ezxlm": "0.0.9",
+    "thorify": "^1.5.3",
+    "web3": "^1.3.4"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "http://devnullprod.com"
+  }
+}
